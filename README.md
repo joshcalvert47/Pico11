@@ -1,10 +1,7 @@
 # Pico11
 
 **Pico11** is a lightweight, streamlined version of Windows 11 designed for performance and simplicity. It minimizes resource usage while retaining essential functionality, making it ideal for low-spec devices or users who prioritize speed and efficiency over additional features.
-
----
-## Website
-[Pico11](https://pico11.pages.dev)
+[Website(https://pico11.pages.dev)
 
 ---
 
@@ -23,15 +20,14 @@
 
 - **Processor**: 1 GHz or faster with at least two cores.
 - **RAM**: 2 GB (4-8 GB recommended).
-- **Storage**: 10 GB of free space (depending on installation preferences).
+- **Storage**: 64 GB of free space (depending on installation preferences).
 - **Graphics**: DirectX 9 compatible or higher.
-- **Display**: 800x600 minimum resolution.
 
 ---
 
 ## Installation
 
-1. **Download the ISO**: Obtain the Pico11 ISO from the official repository or trusted source.
+1. **Download the ISO**: Obtain the Pico11 ISO from the website download URL.
 2. **Create Installation Media**: Use tools like [Rufus](https://rufus.ie/) to create a bootable USB drive.
 3. **Boot from USB**:
    - Restart your computer and access the boot menu (usually by pressing F2, F12, ESC, or DEL during startup).
@@ -49,6 +45,7 @@
 
 ## What's Included
 
+- Helium Browser.
 - Core Windows functionality (file explorer, task manager, etc.).
 - Support for essential drivers and peripherals.
 - Windows Update (for security patches).
@@ -83,10 +80,10 @@
 - **Version 3**: Supported ❌  
      - **Release**: 08/05/25  
      - **EOL**: 05/05/26
-### 25H2
-- **Version 4**: Coming Soon!!!
-   - **Release**: ????
-   - **EOL**: ????
+### 26H2
+- **Version 4**: Coming Soon.
+   - **Release**: 2026
+   - **EOL**: 2027
   
 ---
 
