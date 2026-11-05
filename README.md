@@ -4,6 +4,8 @@
 [Website](https://pico11.pages.dev)
 
 ---
+Contact me for improvements or to add new features at [josh@funbyte.net](mailto:josh@funbyte.net)
+---
 
 ## Features
 
