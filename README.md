@@ -71,7 +71,6 @@ Contact me for improvements or to add new features at [josh@funbyte.net](mailto:
 - **Version 1.1**: Supported ❌  
      - **Release**: 5/12/24  
      - **EOL**: 1/2/24  
-
 ### 24H2
 - **Version 2**: Supported ❌  
      - **Release**: 5/12/24  
@@ -83,8 +82,8 @@ Contact me for improvements or to add new features at [josh@funbyte.net](mailto:
      - **Release**: 08/05/25  
      - **EOL**: 05/05/26
 ### 26H2
-- **Version 4**: Coming Soon.
-   - **Release**: 2026
+- **Version 4**: Supported ✅
+   - **Release**: 08/11/2026
    - **EOL**: 2027
   
 ---
