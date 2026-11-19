@@ -1,0 +1,87 @@
+body {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0000ff 0%, #ffffff 90%);
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 650px;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+         .downloadbutton {
+      display: inline-block;
+      padding: 10px 110px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #0078D7;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Button Animation */
+    .downloadbutton:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+      border-radius: 50%;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .downloadbutton:hover:before {
+      transform: translate(-50%, -50%) scale(2);
+      opacity: 1;
+    }
+
+    /* Text Animation */
+    .downloadbutton span {
+      position: relative;
+    }
+
+    .downloadbutton span:before,
+    .downloadbutton span:after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .downloadbutton span:before {
+      color: #0078D7;
+      z-index: 2;
+    }
+
+    .downloadbutton span:after {
+      color: #fff;
+      z-index: 1;
+    }
+
+    .downloadbutton:hover span:before,
+    .downloadbutton:hover span:after {
+      opacity: 1;
+    }
+
